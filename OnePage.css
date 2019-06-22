@@ -1,0 +1,141 @@
+body, html {
+    height: 100%;
+    font-family: cursive;
+}
+
+section {
+    min-height: 100%;
+    padding: 5%;
+}
+
+.mycontent {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000;
+    width: 100%;
+    padding: 50px 5px;
+    border-radius: 20px;
+    border: 2px #ddd solid;
+}
+
+.mycontent h2 {
+    text-transform: uppercase;
+}
+
+#home {
+    background: url(https://wallpaperset.com/w/full/d/a/c/332347.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#contact {
+    background-color: darkkhaki;
+}
+
+#about {
+    background-color: bisque;
+}
+
+#two {
+    background-color: darkseagreen;
+}
+
+#one {
+    background-color: azure;
+}
+
+.navbutton body {
+    padding-top: 50px;
+}
+
+.navone {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #000000;
+    color: #fff;
+    overflow: hidden;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.navone > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navone > li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    padding: 0;
+}
+
+.navone > li > a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background: #222;
+    color: aliceblue;
+}
+
+.navone > li > a:hover {
+    background: #B3DCE5;
+    outline: none;
+    color: #44494B;
+}
+
+.myimage {
+    float: left;
+    padding: 5px;
+}
+
+#contact-form {
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #eeeeee;
+}
+
+#contact-form textarea {
+    height: 200px;
+    width: 300px;
+}
+
+#contact-form label {
+    display: block;
+}
+
+#contact-form input, #contact-form textarea {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.aboutimg {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width:1100px) {
+    
+} 
+
+@media (max-width:780px) {
+    
+} @media (max-width:480px) {
+    img{
+        width: 100%;
+    }
+    
+    .navone {
+        display: none;
+    }
+
+    #contact-form textarea {
+        height: 200px;
+        width: 100%;
+    }
+}
